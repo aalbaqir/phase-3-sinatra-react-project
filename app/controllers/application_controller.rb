@@ -6,11 +6,11 @@ class ApplicationController < Sinatra::Base
     { message: "This project will be the death of me" }.to_json
   end
 
-  get "/users" do
-    # User.all.to_json
-    "hello world"
+#   get "/users" do
+#     # User.all.to_json
+#     "hello world"
 
-end
+# end
 
   
 

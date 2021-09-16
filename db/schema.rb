@@ -16,12 +16,13 @@ ActiveRecord::Schema.define(version: 2021_09_15_221257) do
     t.string "name"
     t.string "image"
     t.integer "price"
-    t.string "description"
-    t.boolean "category"
+    t.string "category"
+    t.integer "user_id"
   end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
+    t.string "artist_img"
   end
 
 end
